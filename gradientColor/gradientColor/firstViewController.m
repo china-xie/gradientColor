@@ -28,7 +28,7 @@
     [self.view.layer addSublayer:colorLayer];
     
     //颜色分配
-    colorLayer.colors = @[(__bridge id)[UIColor colorWithRed:0.0/255 green:222.0/255 blue:255.0/255 alpha:1.0].CGColor,(__bridge id)[UIColor colorWithRed:75.0/255 green:255.0/255 blue:249.0/255 alpha:1.0].CGColor,(__bridge id)[UIColor colorWithRed:190.0/255 green:253.0/255 blue:255.0/255 alpha:1.0].CGColor];
+    colorLayer.colors = @[(__bridge id)[UIColor colorWithRed:0.0/255 green:222.0/255 blue:200.0/255 alpha:1.0].CGColor,(__bridge id)[UIColor colorWithRed:75.0/255 green:255.0/255 blue:210.0/255 alpha:1.0].CGColor,(__bridge id)[UIColor colorWithRed:190.0/255 green:253.0/255 blue:220.0/255 alpha:1.0].CGColor];
     
     colorLayer.startPoint = CGPointMake(0.0, 0.0);//起始点
     colorLayer.endPoint = CGPointMake(1.0, 1.0);//结束点

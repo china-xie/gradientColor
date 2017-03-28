@@ -30,7 +30,7 @@
     [self.view.layer addSublayer:colorLayer];
     
     //颜色分配
-    colorLayer.colors = @[(__bridge id)[UIColor redColor].CGColor,(__bridge id)[UIColor greenColor].CGColor,(__bridge id)[UIColor blueColor].CGColor];
+    colorLayer.colors = @[(__bridge id)[UIColor redColor].CGColor,(__bridge id)[UIColor grayColor].CGColor,(__bridge id)[UIColor yellowColor].CGColor];
     colorLayer.locations = @[@(0.25),@(0.5),@(0.75)];
     colorLayer.startPoint = CGPointMake(0, 0);
     colorLayer.endPoint = CGPointMake(1, 0);
